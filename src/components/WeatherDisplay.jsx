@@ -92,7 +92,7 @@ const WeatherDisplay = ({ weatherData, forecastData, isDarkMode }) => {
                 </div>
             </div>
             <div className={isDarkMode ? 'forecast' : 'forecast body-light'}>
-                <h3>5 Days Forecast:</h3>
+                <h3>5 Days Forecast</h3>
                 {forecastDays.map((day, index) => (
                     <div key={index}>
                         <img src={day.icon} alt="forecast icon" className={`forecast-icon${index + 1}`} />
